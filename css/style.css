@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family:'Times New Roman', Times, serif;
+}
+h1,h2{
+text-align: center;
+}
+h2 a{
+  color:rgb(104, 249, 235);
+  text-decoration:dotted;
+  
+}
+.appico {
+  width: 110px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mode{
+  width:80px;
+  background-color: #fff;
+  display:inline-block;
+  position:absolute;
+  right: 0;
+  margin-right: 150px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.mode:hover{
+  background-color:yellow;
+  cursor: pointer;
+}
+
+ul {
+  overflow: hidden;
+}
+
+.container {
+  padding: 20px;
+  height: 1125x;
+  width: 1000px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  background-color: rgb(75, 88, 100);
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid;
+  width: 1000px;
+  font-size: 16px;
+}
+
+th,
+td {
+  border: 1px solid;
+
+}
+
+th {
+  font-size: 24px;
+  font-style: inherit;
+}
+
+input {
+  width: 250px;
+  font-size: 16px;
+}
+
+
+.info {
+  display: flex;
+  position: absolute;
+  right: 0;
+  padding: 12px;
+  margin-top: 400px;
+  width: 400px;
+  height: 330px;
+  background-color: rgb(75, 88, 100);
+  border: 1px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.info input {
+  font-size: 12px;
+  width: 150px;
+  margin:7px;
+}
+p {
+  font-size: 16px;
+  font-style: bolt;
+}
+
+.needsname {
+  display:inline-block;
+  width: 50%;
+}
+
+.needsinput {
+  display:inline-block;
+  margin-top: 10px;
+  width: 50%;
+}
+.resut{
+  width: 400px;
+  margin-top: 150px;
+  margin-left: -400px;
+}

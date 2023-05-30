@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Калькулятор рациона</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <div class="info">
+   
+    <div class="needsname">
+      <p>Необходимые вам колории:</p>
+      <p>Необходимые вам белки</p>
+      <p>Необходимые вам жиры:</p>
+      <p>Необходимые вам углеводы:</p>
+    </div>
+
+    <div class="needsinput">
+      <input id="userKol" type="text"><br>
+      <input id="userBelki" type="text"><br>
+      <input id="userJiri" type="text"><br>
+      <input id="userUgl" type="text"><br>  
+    </div>
+    <div class="resut">
+      <hr>
+      <p id="KolSum">Сумма колории: 0</p>
+      <p id="BelSum">Сумма белков: 0</p>
+      <p id="JirSum">Сумма жиров: 0</p>
+      <p id="UglSum">Сумма углеводов: 0</p>
+    </div>
+  </div>
+  <img class="mode" src="darkmode.png" alt="">
+ 
+  <div class="container">
+
+    <img class="appico" src="image.png" alt="">
+    <h2>Сначала, посетите данный <a href="https://doctorushakov.com/calculator">сайт</a> и определите свои рекомендации </h2>
+    <h2>Потом возвращайтесь ( стрелка назад в левом углу ) для подсчёта: </h2>
+ 
+    
+    <table>
+      <tr>
+        <th>Название еды:</th>
+        <th>Количество (1 сред. порция):</th>
+      </tr>
+      <tr>
+        <td><h2>Буханка хлеба</h2></td>
+        <td> <input id="bread" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Лепешка хлеба</h2></td>
+        <td><input id="loafbread" type="number" value=0  min=0></td>
+      </tr>
+      <tr>
+        <td><h2>Роллтон </h2></td>
+        <td><input id="rollton" type="number" value=0 min=0></td>
+      </tr>
+      <tr>
+        <td><h2>Snikers </h2></td>
+        <td><input id="snikers" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Хот-дог</h2></td>
+        <td><input id="hotdog" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Мясной суп</h2></td>
+        <td><input id="meatsoup" type="number" value=0 min=0></td>
+      </tr>
+      <tr>
+        <td><h2>Вишневое варенье</h2></td>
+        <td><input id="cherryjam" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Яйцо</h2></td>
+        <td><input id="egg" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Шашлык (говяжий)</h2></td>
+        <td><input id="shashlik" type="number" value=0 min=0></td>
+      </tr>
+      <tr>
+        <td><h2>Плов</h2></td>
+        <td><input id="plov" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td> <h2>Картофельный суп</h2></td>
+        <td><input id="potatosoup" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Банан</h2></td>
+        <td><input id="banana" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Чипсы Lays Шашлык</h2></td>
+        <td><input id="laysShashlik" type="number" value=0 min=0></td>
+      </tr>
+      <tr>
+        <td><h2>Чипсы Lays Зеленый лук</h2></td>
+        <td> <input id="laysGreen" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Печенье</h2></td>
+        <td><input id="biscuit" type="number" value=0 min=0> </td>
+      </tr>
+      <tr>
+        <td><h2>Манты</h2></td>
+        <td> <input id="manti" type="number" value=0 min=0> </td>
+      </tr>
+    </table>
+    <hr style="margin-bottom:30px; margin-top:50px">
+    <h1 style="font-size: 18px;">Credits: Bakhramova M.B. - 2023 Ⓒ </h1>
+    <h1 style="font-size: 18px;"> (Сайт находится в тестовом режиме. Примеры блюд случайны)</h1>
+  </div>
+
+
+
+  <script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>
